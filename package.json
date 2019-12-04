@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "1.2.20",
+	"version": "1.2.21",
 	"description": "ctx-core flash",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
@@ -28,8 +28,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/function": "^10.5.33",
-		"@ctx-core/object": "^6.3.7",
-		"@ctx-core/store": "^12.1.7",
+		"@ctx-core/object": "^6.3.8",
+		"@ctx-core/store": "^12.1.8",
 		"svelte": "^3.16.0"
 	},
 	"devDependencies": {
