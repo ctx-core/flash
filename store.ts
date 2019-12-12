@@ -39,12 +39,12 @@ export function shift__flash() {
 		queue__flash =>
 			queue__flash.shift())
 }
-export function add__message__flash(message__flash, rest) {
+export function add__message__flash(message__flash, rest?) {
 	add__flash(clone(rest, {
 		message__flash,
 	}))
 }
-export function add__error__flash(error__flash, rest) {
+export function add__error__flash(error__flash, rest?) {
 	add__flash(clone(rest, {
 		error__flash,
 	}))
