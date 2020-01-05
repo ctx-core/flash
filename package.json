@@ -27,6 +27,7 @@
 		"access": "public"
 	},
 	"dependencies": {
+		"@ctx-core/dom": "^5.10.44",
 		"@ctx-core/function": "^10.5.36",
 		"@ctx-core/object": "^6.5.0",
 		"@ctx-core/store": "^13.0.2",
