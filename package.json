@@ -31,7 +31,7 @@
 		"@ctx-core/function": "^13.0.7",
 		"@ctx-core/object": "^8.0.15",
 		"@ctx-core/store": "^13.1.33",
-		"svelte": "^3.23.1"
+		"svelte": "^3.23.2"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.5"
