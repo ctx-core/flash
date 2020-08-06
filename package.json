@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "1.3.105",
+	"version": "1.3.106",
 	"description": "ctx-core flash",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -30,10 +30,10 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^6.0.21",
-		"@ctx-core/function": "^13.2.2",
-		"@ctx-core/object": "^9.0.12",
-		"@ctx-core/store": "^16.0.15",
+		"@ctx-core/dom": "^6.0.22",
+		"@ctx-core/function": "^13.2.3",
+		"@ctx-core/object": "^9.0.13",
+		"@ctx-core/store": "^16.0.16",
 		"svelte": "^3.24.1"
 	},
 	"devDependencies": {
