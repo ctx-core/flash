@@ -1,19 +1,17 @@
 import { writable, derived, get, Writable } from 'svelte/store'
 import { subscribe } from '@ctx-core/store'
-// @ts-ignore
-import { subscribe__debug } from '@ctx-core/store'
 import { _b, assign, clone } from '@ctx-core/object'
 import { tap, _andand, noop } from '@ctx-core/function'
 import { _has__dom } from '@ctx-core/dom'
-export interface Writable__queue__flash extends Writable<any[]> {
+export interface type__queue__flash extends Writable<unknown[]> {
 	add__flash:(ctx__flash:any)=>void
 	shift__flash:()=>void
 	add__message__flash:(message__flash:any, rest?:any)=>void
 	add__error__flash:(error__flash:any, rest?:any)=>void
 	cancel__expire__flash:()=>void
 }
-export const b__queue__flash = _b<Writable__queue__flash>('__queue__flash', ctx=>{
-	const __queue__flash = writable([])
+export const b__queue__flash = _b<type__queue__flash>('__queue__flash', ctx=>{
+	const __queue__flash = writable([]) as type__queue__flash
 	return assign(__queue__flash, {
 		add__flash,
 		shift__flash,
