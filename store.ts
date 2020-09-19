@@ -3,7 +3,8 @@ import { subscribe } from '@ctx-core/store'
 import { _b, assign, clone } from '@ctx-core/object'
 import { tap, _andand, noop } from '@ctx-core/function'
 import { _has__dom } from '@ctx-core/dom'
-export interface type__queue__flash extends Writable<unknown[]> {
+export type $type__queue__flash = object[]
+export interface type__queue__flash extends Writable<$type__queue__flash> {
 	add__flash:(ctx__flash:any)=>void
 	shift__flash:()=>void
 	add__message__flash:(message__flash:any, rest?:any)=>void
@@ -11,7 +12,7 @@ export interface type__queue__flash extends Writable<unknown[]> {
 	cancel__expire__flash:()=>void
 }
 export const b__queue__flash = _b<type__queue__flash>('__queue__flash', ctx=>{
-	const __queue__flash = writable([]) as type__queue__flash
+	const __queue__flash = writable<$type__queue__flash>([]) as type__queue__flash
 	return assign(__queue__flash, {
 		add__flash,
 		shift__flash,
