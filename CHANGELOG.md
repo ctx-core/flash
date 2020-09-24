@@ -1,5 +1,14 @@
 # @ctx-core/flash
 
+## 2.0.21
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@18.1.0
+  - @ctx-core/dom@7.0.21
+
 ## 2.0.20
 
 ### Patch Changes
