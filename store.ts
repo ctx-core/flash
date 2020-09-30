@@ -1,4 +1,4 @@
-import { writable, derived, get, Writable } from 'svelte/store'
+import { writable, derived, get, Writable } from '@ctx-core/store'
 import { subscribe } from '@ctx-core/store'
 import { _b, assign, clone } from '@ctx-core/object'
 import { tap, _andand, noop } from '@ctx-core/function'
@@ -51,7 +51,8 @@ export const b__queue__flash = _b<type__queue__flash>('__queue__flash', ctx=>{
 	}
 	function cancel__expire__flash() {
 		window.clearTimeout(
-			get(b__id__timeout__expire__flash(ctx)))
+			get(b__id__timeout__expire__flash(ctx)) as number
+		)
 	}
 })
 export const __queue__flash = b__queue__flash()
