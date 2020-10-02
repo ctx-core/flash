@@ -1,8 +1,6 @@
 import { writable, derived, get, Writable } from '@ctx-core/store'
-import { subscribe } from '@ctx-core/store'
 import { _b, assign, clone } from '@ctx-core/object'
-import { tap, _andand, noop } from '@ctx-core/function'
-import { _has__dom } from '@ctx-core/dom'
+import { tap, _andand } from '@ctx-core/function'
 export type $type__queue__flash = object[]
 export interface type__queue__flash extends Writable<$type__queue__flash> {
 	add__flash:(ctx__flash:any)=>void
@@ -51,7 +49,7 @@ export const b__queue__flash = _b<type__queue__flash>('__queue__flash', ctx=>{
 	}
 	function cancel__expire__flash() {
 		window.clearTimeout(
-			get(b__id__timeout__expire__flash(ctx)) as number
+			get(b__id__timeout__expire__flash(ctx))
 		)
 	}
 })
@@ -78,13 +76,8 @@ export const b__id__timeout__expire__flash = _b('__id__timeout__expire__flash', 
 		derived(
 			b__flash(ctx),
 			()=>
-				setTimeout(
-					shift__flash,
-					timeout__flash)
+				setTimeout(shift__flash, timeout__flash)
 		)
-	if (_has__dom()) {
-		subscribe(__id__timeout__expire__flash, noop)
-	}
 	return __id__timeout__expire__flash
 })
 export const __id__timeout__expire__flash = b__id__timeout__expire__flash()
