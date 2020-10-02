@@ -1,5 +1,17 @@
 # @ctx-core/flash
 
+## 2.0.49
+
+### Patch Changes
+
+- flash updates
+
+## 2.0.48
+
+### Patch Changes
+
+- 37a27ac9f: fix: b**queue**flash: cancel**expire**flash: type issue
+
 ## 2.0.47
 
 ### Patch Changes
