@@ -1,5 +1,12 @@
 # @ctx-core/flash
 
+## 2.0.51
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@7.1.0
+
 ## 2.0.50
 
 ### Patch Changes
