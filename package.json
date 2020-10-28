@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "2.0.54",
+	"version": "2.0.55",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -28,14 +28,14 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^7.1.3",
-		"@ctx-core/function": "workspace:^16.1.1",
-		"@ctx-core/object": "workspace:^13.0.0",
-		"@ctx-core/store": "workspace:^23.0.8",
+		"@ctx-core/dom": "workspace:^7.1.4",
+		"@ctx-core/function": "workspace:^16.1.2",
+		"@ctx-core/object": "workspace:^13.0.1",
+		"@ctx-core/store": "workspace:^23.0.9",
 		"svelte": "3.29.4"
 	},
 	"devDependencies": {
-		"typescript": "^4.0.3"
+		"typescript": "^4.0.5"
 	},
 	"publishConfig": {
 		"access": "public"
