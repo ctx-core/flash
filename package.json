@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "2.1.22",
+	"version": "2.1.23",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -28,7 +28,7 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^7.1.35",
+		"@ctx-core/dom": "workspace:^7.1.36",
 		"@ctx-core/function": "workspace:^16.8.1",
 		"@ctx-core/object": "workspace:^16.0.1",
 		"@ctx-core/store": "workspace:^23.1.24",
