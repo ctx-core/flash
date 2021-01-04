@@ -1,5 +1,5 @@
 import { Writable } from '@ctx-core/store';
-export declare const flash_queue_b: (ctx: object, opts?: import("@ctx-core/object")._be_opts_type | undefined) => flash_queue_type;
+export declare const flash_queue_b: import("@ctx-core/object").be_type<flash_queue_type, object>;
 export declare type $flash_queue_type = object[];
 export interface flash_queue_type extends Writable<$flash_queue_type> {
     add_flash: (flash_ctx: any) => void;

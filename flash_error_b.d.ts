@@ -1,1 +1,1 @@
-export declare const flash_error_b: (ctx: object, opts?: import("@ctx-core/object")._be_opts_type | undefined) => import("@ctx-core/store").Readable<void | import("@ctx-core/store").Unsubscriber>;
+export declare const flash_error_b: import("@ctx-core/object").be_type<import("@ctx-core/store").Readable<void | import("@ctx-core/store").Unsubscriber>, object>;
