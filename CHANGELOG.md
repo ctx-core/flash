@@ -1,5 +1,12 @@
 # @ctx-core/flash
 
+## 3.0.1
+
+### Patch Changes
+
+- @ctx-core/store@24.0.1
+- @ctx-core/dom@8.0.1
+
 ## 3.0.0
 
 ### Major Changes
