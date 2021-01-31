@@ -1,5 +1,12 @@
 # @ctx-core/flash
 
+## 2.1.38
+
+### Patch Changes
+
+- @ctx-core/store@23.4.5
+- @ctx-core/dom@7.1.51
+
 ## 2.1.37
 
 ### Patch Changes
