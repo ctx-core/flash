@@ -1,5 +1,16 @@
 # @ctx-core/flash
 
+## 3.0.31
+
+### Patch Changes
+
+- typescript: ^4.2.2 -> ^4.2.3
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.9
+  - @ctx-core/function@17.4.1
+  - @ctx-core/object@17.3.1
+  - @ctx-core/store@24.1.10
+
 ## 3.0.30
 
 ### Patch Changes
