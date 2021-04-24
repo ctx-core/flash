@@ -1,5 +1,14 @@
 # @ctx-core/flash
 
+## 3.0.48
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.26
+  - @ctx-core/store@24.2.4
+
 ## 3.0.47
 
 ### Patch Changes
