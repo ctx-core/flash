@@ -1,5 +1,13 @@
 # @ctx-core/flash
 
+## 3.0.66
+
+### Patch Changes
+
+- svelte: 3.38.0 -> 3.38.1
+- Updated dependencies [undefined]
+  - @ctx-core/store@24.7.2
+
 ## 3.0.65
 
 ### Patch Changes
