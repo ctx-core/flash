@@ -1,5 +1,19 @@
 # @ctx-core/flash
 
+## 3.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.3.0
+  - @ctx-core/function@17.9.0
+  - @ctx-core/object@17.6.0
+  - @ctx-core/store@24.8.0
+
 ## 3.0.85
 
 ### Patch Changes
