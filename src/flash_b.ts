@@ -1,11 +1,11 @@
 import { _b } from '@ctx-core/object'
 import { derived$, Readable$ } from '@ctx-core/store'
-import { flash_queue_b, flash_queue_ctx_I } from './flash_queue_b'
+import { flash_queue_b, flash_queue_Ctx } from './flash_queue_b'
 const key = 'flash'
-export interface flash_ctx_I extends flash_queue_ctx_I {
+export interface flash_Ctx extends flash_queue_Ctx {
 	flash?:flash_T
 }
-export const flash_b = _b<flash_ctx_I, typeof key>(key, ctx=>
+export const flash_b = _b<flash_Ctx, typeof key>(key, ctx=>
 	derived$(flash_queue_b(ctx),
 		$flash_queue=>$flash_queue?.[0]))
 export interface $flash_T {
