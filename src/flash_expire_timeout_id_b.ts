@@ -1,15 +1,22 @@
 import { _b } from '@ctx-core/object'
-import { derived } from '@ctx-core/store'
-import { flash_b } from './flash_b'
+import { derived$, Readable$ } from '@ctx-core/store'
+import { flash_b, flash_ctx_I } from './flash_b'
 import { flash_timeout } from './flash_timeout'
-import { flash_queue_b } from './flash_queue_b'
-export const flash_expire_timeout_id_b = _b('flash_expire_timeout_id', ctx=>{
+import { flash_queue_b, flash_queue_ctx_I } from './flash_queue_b'
+const key = 'flash_expire_timeout_id'
+export interface flash_expire_timeout_id_ctx_I
+	extends flash_queue_ctx_I, flash_ctx_I {
+	flash_expire_timeout_id?:flash_expire_timeout_id_T
+}
+export const flash_expire_timeout_id_b = _b<flash_expire_timeout_id_ctx_I, typeof key>(key, ctx=>{
 	const flash_queue = flash_queue_b(ctx)
 	const flash_expire_timeout_id =
-		derived(
+		derived$(
 			flash_b(ctx),
 			()=>
 				setTimeout(flash_queue.shift_flash, flash_timeout)
 		)
 	return flash_expire_timeout_id
 })
+export type $flash_expire_timeout_id_T = NodeJS.Timeout
+export interface flash_expire_timeout_id_T extends Readable$<$flash_expire_timeout_id_T> {}

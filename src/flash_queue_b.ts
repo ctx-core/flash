@@ -1,9 +1,13 @@
 import { tap } from '@ctx-core/function'
 import { _b, assign, clone } from '@ctx-core/object'
-import { get, Writable$, writable$ } from '@ctx-core/store'
+import { Writable$, writable$ } from '@ctx-core/store'
 import { flash_expire_timeout_id_b } from './flash_expire_timeout_id_b'
-export const flash_queue_b = _b<flash_queue_T>('flash_queue', (ctx:{ flash_queue?:flash_queue_T })=>{
-	const flash_queue = writable$<$flash_queue_type>([]) as flash_queue_T
+const key = 'flash_queue'
+export interface flash_queue_ctx_I {
+	flash_queue?:flash_queue_T
+}
+export const flash_queue_b = _b<flash_queue_ctx_I, typeof key>(key, ctx=>{
+	const flash_queue = writable$<$flash_queue_T>([]) as flash_queue_T
 	return assign(flash_queue, {
 		add_flash,
 		shift_flash,
@@ -11,7 +15,7 @@ export const flash_queue_b = _b<flash_queue_T>('flash_queue', (ctx:{ flash_queue
 		add_flash_error,
 		cancel_flash_expire,
 	})
-	function mutate_flash(fn:(val:$flash_queue_type)=>void) {
+	function mutate_flash(fn:(val:$flash_queue_T)=>void) {
 		flash_queue.update(
 			$flash_queue=>
 				tap($flash_queue.slice(),
@@ -42,12 +46,12 @@ export const flash_queue_b = _b<flash_queue_T>('flash_queue', (ctx:{ flash_queue
 	}
 	function cancel_flash_expire() {
 		window.clearTimeout(
-			get(flash_expire_timeout_id_b(ctx))
+			flash_expire_timeout_id_b(ctx).$
 		)
 	}
 })
-export type $flash_queue_type = object[]
-export interface flash_queue_T extends Writable$<$flash_queue_type> {
+export type $flash_queue_T = object[]
+export interface flash_queue_T extends Writable$<$flash_queue_T> {
 	add_flash:(flash_ctx:any)=>void
 	shift_flash:()=>void
 	add_flash_message:(flash_message:any, rest?:any)=>void
