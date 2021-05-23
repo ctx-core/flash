@@ -2,11 +2,9 @@ import { tap } from '@ctx-core/function'
 import { _b, assign, clone } from '@ctx-core/object'
 import { Writable$, writable$ } from '@ctx-core/store'
 import { flash_expire_timeout_id_b } from './flash_expire_timeout_id_b'
+import type { flash_Ctx } from './flash_Ctx'
 const key = 'flash_queue'
-export interface flash_queue_Ctx {
-	flash_queue?:flash_queue_T
-}
-export const flash_queue_b = _b<flash_queue_Ctx, typeof key>(key, ctx=>{
+export const flash_queue_b = _b<flash_Ctx, typeof key>(key, ctx=>{
 	const flash_queue = writable$<$flash_queue_T>([]) as flash_queue_T
 	return assign(flash_queue, {
 		add_flash,
