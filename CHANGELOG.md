@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 3.3.4
+
+### Patch Changes
+
+- update dependencies
+
 ## 3.3.3
 
 ### Patch Changes
