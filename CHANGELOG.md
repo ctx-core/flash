@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 3.3.3
+
+### Patch Changes
+
+- fix: \_h_b_h: return value
+
 ## 3.3.2
 
 ### Patch Changes
