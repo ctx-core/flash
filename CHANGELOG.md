@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 3.3.2
+
+### Patch Changes
+
+- - flash_b_h_b
+
 ## 3.3.1
 
 ### Patch Changes
