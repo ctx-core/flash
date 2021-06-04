@@ -1,5 +1,13 @@
 # @ctx-core/flash
 
+## 4.0.8
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.4
+
 ## 4.0.7
 
 ### Patch Changes
