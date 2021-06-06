@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "4.0.13",
+	"version": "4.0.14",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -29,10 +29,10 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^9.0.7",
-		"@ctx-core/function": "workspace:^18.1.0",
-		"@ctx-core/object": "workspace:^19.1.0",
-		"@ctx-core/store": "workspace:^25.1.8",
+		"@ctx-core/dom": "workspace:^9.0.8",
+		"@ctx-core/function": "workspace:^18.1.1",
+		"@ctx-core/object": "workspace:^19.1.1",
+		"@ctx-core/store": "workspace:^25.1.9",
 		"svelte": "3.38.2"
 	},
 	"devDependencies": {
