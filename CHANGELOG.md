@@ -1,5 +1,16 @@
 # @ctx-core/flash
 
+## 4.0.16
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.10
+  - @ctx-core/function@18.1.3
+  - @ctx-core/object@19.1.3
+  - @ctx-core/store@25.1.13
+
 ## 4.0.15
 
 ### Patch Changes
