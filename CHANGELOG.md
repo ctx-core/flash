@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 4.0.20
+
+### Patch Changes
+
+- fix: B: inferred type issue
+
 ## 4.0.19
 
 ### Patch Changes
