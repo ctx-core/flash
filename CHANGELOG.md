@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 4.0.21
+
+### Patch Changes
+
+- update dependencies
+
 ## 4.0.20
 
 ### Patch Changes
