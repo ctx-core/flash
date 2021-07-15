@@ -1,6 +1,6 @@
 import { B, be_ } from '@ctx-core/object'
 import { derived$, Readable$ } from '@ctx-core/store'
-import { flash$_b } from './flash$_b'
+import { flash$_b } from './flash$_b.js'
 import type { flash_Ctx } from './flash_Ctx'
 const key = 'flash_message$'
 export const flash_message$_b:B<flash_Ctx, typeof key> = be_(key, ctx=>
