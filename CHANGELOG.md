@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 6.0.3
+
+### Patch Changes
+
+- import: + .js extention
+
 ## 6.0.2
 
 ### Patch Changes
