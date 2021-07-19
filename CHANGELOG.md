@@ -1,5 +1,16 @@
 # @ctx-core/flash
 
+## 6.0.15
+
+### Patch Changes
+
+- fix: "exports": "./package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.15
+  - @ctx-core/function@20.0.12
+  - @ctx-core/object@21.0.12
+  - @ctx-core/store@27.0.11
+
 ## 6.0.14
 
 ### Patch Changes
