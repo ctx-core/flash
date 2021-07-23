@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "6.0.19",
+	"version": "6.0.20",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -46,7 +46,7 @@
 		"svelte": "3.40.1"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.0.16",
+		"@ctx-core/dev-tools": "workspace:^7.0.18",
 		"typescript": "^4.3.5"
 	},
 	"publishConfig": {

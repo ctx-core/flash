@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 6.0.20
+
+### Patch Changes
+
+- fix: \*\_ctx_I.generated
+
 ## 6.0.19
 
 ### Patch Changes
