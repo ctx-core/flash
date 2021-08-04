@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "6.0.24",
+	"version": "6.0.25",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -41,9 +41,9 @@
 		"@ctx-core/dom": "workspace:^11.0.16",
 		"@ctx-core/function": "workspace:^20.0.13",
 		"@ctx-core/object": "workspace:^21.0.13",
-		"@ctx-core/store": "workspace:^27.0.17",
+		"@ctx-core/store": "workspace:^27.0.18",
 		"esm": "^3.2.25",
-		"svelte": "3.41.0"
+		"svelte": "3.42.1"
 	},
 	"devDependencies": {
 		"@ctx-core/dev-tools": "workspace:^7.0.19",
