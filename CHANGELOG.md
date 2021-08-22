@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 6.0.30
+
+### Patch Changes
+
+- update dependencies
+
 ## 6.0.29
 
 ### Patch Changes
