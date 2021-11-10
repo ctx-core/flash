@@ -1,5 +1,16 @@
 # @ctx-core/flash
 
+## 6.0.50
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+  - @ctx-core/dom@11.0.30
+  - @ctx-core/function@20.2.3
+  - @ctx-core/object@21.0.22
+  - @ctx-core/store@27.0.36
+
 ## 6.0.49
 
 ### Patch Changes
