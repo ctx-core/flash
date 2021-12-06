@@ -1,5 +1,14 @@
 # @ctx-core/flash
 
+## 6.0.59
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/dom@11.0.39
+  - @ctx-core/store@27.0.45
+
 ## 6.0.58
 
 ### Patch Changes
