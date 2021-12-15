@@ -1,5 +1,16 @@
 # @ctx-core/flash
 
+## 7.0.3
+
+### Patch Changes
+
+- fix: package.json: exports
+- Updated dependencies
+  - @ctx-core/dom@11.0.42
+  - @ctx-core/function@20.2.14
+  - @ctx-core/object@22.0.2
+  - @ctx-core/store@27.0.49
+
 ## 7.0.2
 
 ### Patch Changes
