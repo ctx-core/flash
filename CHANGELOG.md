@@ -1,5 +1,16 @@
 # @ctx-core/flash
 
+## 7.0.4
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/dom@11.0.43
+  - @ctx-core/function@20.2.15
+  - @ctx-core/object@22.0.3
+  - @ctx-core/store@27.0.50
+
 ## 7.0.3
 
 ### Patch Changes
