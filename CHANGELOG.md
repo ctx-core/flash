@@ -1,5 +1,16 @@
 # @ctx-core/flash
 
+## 7.0.9
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/dom@11.0.48
+  - @ctx-core/function@20.2.20
+  - @ctx-core/object@22.0.8
+  - @ctx-core/store@27.0.55
+
 ## 7.0.8
 
 ### Patch Changes
