@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 8.0.0
+
+### Major Changes
+
+- using @ctx-core/nanostores for stores instead of @ctx-core/store,@ctx-core/svelte
+
 ## 7.0.9
 
 ### Patch Changes
