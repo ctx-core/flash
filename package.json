@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "8.0.0",
+	"version": "8.0.1",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -38,7 +38,7 @@
 	"dependencies": {
 		"@ctx-core/dom": "workspace:^11.0.48",
 		"@ctx-core/function": "workspace:^20.2.20",
-		"@ctx-core/nanostores": "workspace:^0.1.0",
+		"@ctx-core/nanostores": "workspace:^0.1.1",
 		"@ctx-core/object": "workspace:^22.0.8",
 		"svelte": "^3.44.3"
 	},
