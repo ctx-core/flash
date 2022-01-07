@@ -1,5 +1,17 @@
 # @ctx-core/flash
 
+## 8.0.8
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+- svelte: ^3.44.3 -> ^3.45.0
+- Updated dependencies
+  - @ctx-core/dom@11.1.4
+  - @ctx-core/function@20.2.24
+  - @ctx-core/nanostores@0.3.3
+  - @ctx-core/object@22.0.11
+
 ## 8.0.7
 
 ### Patch Changes
