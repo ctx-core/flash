@@ -1,9 +1,9 @@
 import { tap } from '@ctx-core/function'
 import { B, be_, assign, clone } from '@ctx-core/object'
-import { WritableAtom$, atom$ } from '@ctx-core/nanostores'
-import { flash_expire_timeout_id$_b } from './flash_expire_timeout_id$_b.js'
+import { atom$, WritableAtom$ } from '@ctx-core/nanostores'
+import { flash_expire_timeout_id$_ } from './flash_expire_timeout_id$_.js'
 const key = 'flash_queue$'
-export const flash_queue$_b:B<flash_queue$_T> = be_(key, ctx=>{
+export const flash_queue$_:B<flash_queue$_T> = be_(key, ctx=>{
 	const flash_queue$ = atom$<flash_queue_T>([]) as flash_queue$_T
 	return assign(flash_queue$, {
 		add_flash,
@@ -39,7 +39,7 @@ export const flash_queue$_b:B<flash_queue$_T> = be_(key, ctx=>{
 	}
 	function cancel_flash_expire() {
 		window.clearTimeout(
-			flash_expire_timeout_id$_b(ctx).$
+			flash_expire_timeout_id$_(ctx).$
 		)
 	}
 })
