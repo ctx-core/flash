@@ -3,8 +3,7 @@ import { B, be_ } from '@ctx-core/object'
 import { flash$_ } from './flash$_.js'
 import { flash_queue$_ } from './flash_queue$_.js'
 import { flash_timeout } from './flash_timeout.js'
-const key = 'flash_expire_timeout_id$'
-export const flash_expire_timeout_id$_:B<flash_expire_timeout_id$_T> = be_(key, ctx=>{
+export const flash_expire_timeout_id$_:B<flash_expire_timeout_id$_T> = be_('flash_expire_timeout_id$', ctx=>{
 	const flash_expire_timeout_id =
 		computed$(
 			flash$_(ctx),
