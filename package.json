@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "9.0.2",
+	"version": "9.0.3",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -36,10 +36,10 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^11.1.5",
-		"@ctx-core/function": "^20.4.0",
-		"@ctx-core/nanostores": "^0.5.3",
-		"@ctx-core/object": "^22.0.13",
+		"@ctx-core/dom": "workspace:^11.1.6",
+		"@ctx-core/function": "workspace:*",
+		"@ctx-core/nanostores": "workspace:^0.5.4",
+		"@ctx-core/object": "workspace:*",
 		"svelte": "^3.46.4"
 	},
 	"devDependencies": {
