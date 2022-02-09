@@ -36,10 +36,10 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^11.1.6",
-		"@ctx-core/function": "*",
-		"@ctx-core/nanostores": "^0.5.4",
-		"@ctx-core/object": "*",
+		"@ctx-core/dom": "workspace:^11.1.6",
+		"@ctx-core/function": "workspace:*",
+		"@ctx-core/nanostores": "workspace:^0.5.4",
+		"@ctx-core/object": "workspace:*",
 		"svelte": "^3.46.4"
 	},
 	"devDependencies": {
