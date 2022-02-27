@@ -38,13 +38,13 @@
 	"dependencies": {
 		"@ctx-core/dom": "^11.1.7",
 		"@ctx-core/function": "*",
-		"@ctx-core/nanostores": "^0.7.1",
+		"@ctx-core/nanostores": "^0.7.2",
 		"@ctx-core/object": "*",
 		"svelte": "^3.46.4"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.145",
+		"@swc/core": "^1.2.146",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
