@@ -1,5 +1,16 @@
 # @ctx-core/flash
 
+## 9.0.16
+
+### Patch Changes
+
+- package.json: exports: update
+- Updated dependencies
+  - @ctx-core/dom@11.1.10
+  - @ctx-core/function@20.6.1
+  - @ctx-core/nanostores@1.0.11
+  - @ctx-core/object@22.1.4
+
 ## 9.0.15
 
 ### Patch Changes
