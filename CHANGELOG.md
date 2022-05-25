@@ -1,5 +1,13 @@
 # @ctx-core/flash
 
+## 9.0.27
+
+### Patch Changes
+
+- @ctx-core/object: 22.2.0
+- Updated dependencies
+  - @ctx-core/dom@11.1.21
+
 ## 9.0.26
 
 ### Patch Changes
