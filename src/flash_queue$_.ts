@@ -1,9 +1,9 @@
 import { tap } from '@ctx-core/function'
 import { assign, B, be_, clone } from '@ctx-core/object'
-import { atom$, WritableAtom$ } from '@ctx-core/nanostores'
+import { atom_, WritableAtom_ } from '@ctx-core/nanostores'
 import { flash_expire_timeout_id$_ } from './flash_expire_timeout_id$_.js'
 export const flash_queue$_:B<flash_queue$_T> = be_('flash_queue$', ctx=>{
-	const flash_queue$ = atom$<flash_queue_T>([]) as flash_queue$_T
+	const flash_queue$ = atom_<flash_queue_T>([]) as flash_queue$_T
 	return assign(flash_queue$, {
 		add_flash,
 		shift_flash,
@@ -43,7 +43,7 @@ export const flash_queue$_:B<flash_queue$_T> = be_('flash_queue$', ctx=>{
 	}
 })
 export type flash_queue_T = object[]
-export interface flash_queue$_T extends WritableAtom$<flash_queue_T> {
+export interface flash_queue$_T extends WritableAtom_<flash_queue_T> {
 	add_flash:(flash_ctx:any)=>void
 	shift_flash:()=>void
 	add_flash_message:(flash_message:any, rest?:any)=>void
