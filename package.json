@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "9.1.9",
+	"version": "9.1.10",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -38,7 +38,7 @@
 		"@ctx-core/function": "^21.0.1",
 		"@ctx-core/nanostores": "^2.0.0",
 		"@ctx-core/object": "^22.2.7",
-		"svelte": "^3.49.0"
+		"svelte": "^3.50.0"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
