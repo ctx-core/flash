@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 9.1.14
+
+### Patch Changes
+
+- svelte: ^3.50.1 -> ^3.51.0
+
 ## 9.1.13
 
 ### Patch Changes
