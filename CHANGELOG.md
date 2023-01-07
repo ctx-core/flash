@@ -1,5 +1,14 @@
 # @ctx-core/flash
 
+## 9.1.29
+
+### Patch Changes
+
+- @ctx-core/object: ^22.8.2 -> ^22.9.0
+- Updated dependencies
+  - @ctx-core/dom@11.2.8
+  - @ctx-core/nanostores@2.2.8
+
 ## 9.1.28
 
 ### Patch Changes
