@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "9.1.37",
+	"version": "9.1.38",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -34,7 +34,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^11.2.16",
+		"@ctx-core/dom": "^11.2.17",
 		"@ctx-core/function": "^21.6.0",
 		"@ctx-core/nanostores": "^2.2.12",
 		"@ctx-core/object": "^23.0.1",
