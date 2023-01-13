@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 9.1.42
+
+### Patch Changes
+
+- rimraf: ^3.0.2 -> ^4.0.1
+
 ## 9.1.41
 
 ### Patch Changes
