@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 9.1.52
+
+### Patch Changes
+
+- @swc/core: ^1.3.31 -> ^1.3.32
+
 ## 9.1.51
 
 ### Patch Changes
