@@ -1,5 +1,22 @@
 # @ctx-core/flash
 
+## 10.0.0
+
+### Major Changes
+
+- flash_queue\_\_: use exported functions instead of member functions:
+
+  - flash\_\_mutate
+  - flash\_\_add
+  - flash\_\_shift
+  - flash_message\_\_add
+  - flash_error\_\_add
+  - flash_expire\_\_cancel
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 9.1.65
 
 ### Patch Changes
