@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 10.0.17
+
+### Patch Changes
+
+- reference type: Be instead of B
+
 ## 10.0.16
 
 ### Patch Changes
