@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "10.0.20",
+	"version": "10.0.21",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -34,10 +34,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^11.4.15",
+		"@ctx-core/dom": "^11.4.16",
 		"@ctx-core/function": "^21.8.0",
-		"@ctx-core/nanostores": "^2.2.31",
-		"@ctx-core/object": "^25.1.0",
+		"@ctx-core/nanostores": "^2.2.32",
+		"@ctx-core/object": "^25.2.0",
 		"svelte": "^3.55.1"
 	},
 	"devDependencies": {
