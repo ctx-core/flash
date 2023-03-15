@@ -1,5 +1,17 @@
 # @ctx-core/flash
 
+## 10.0.52
+
+### Patch Changes
+
+- dependencies: - svelte
+
+## 10.0.51
+
+### Patch Changes
+
+- svelte: ^3.56.0 -> ^3.57.0
+
 ## 10.0.50
 
 ### Patch Changes
