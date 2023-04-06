@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 10.0.82
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^3.1.21 -> ^3.2.0
+
 ## 10.0.81
 
 ### Patch Changes
