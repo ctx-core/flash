@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "10.0.142",
+	"version": "10.0.143",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -36,7 +36,7 @@
 	"dependencies": {
 		"@ctx-core/dom": "^14.1.52",
 		"@ctx-core/function": "^21.18.0",
-		"@ctx-core/nanostores": "^5.0.1",
+		"@ctx-core/nanostores": "^5.0.2",
 		"@ctx-core/object": "^28.0.1"
 	},
 	"devDependencies": {
