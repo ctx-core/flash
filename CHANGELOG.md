@@ -1,5 +1,12 @@
 # @ctx-core/flash
 
+## 10.0.160
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/nanostores@6.0.0
+
 ## 10.0.159
 
 ### Patch Changes
