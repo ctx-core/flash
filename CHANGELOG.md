@@ -1,5 +1,42 @@
 # @ctx-core/flash
 
+## 10.1.0
+
+### Minor Changes
+
+- - flash\_
+
+  flash$\_: aliased by flash\_\_
+
+- - flash**expire**timeout*id*
+
+  flash**expire**timeout*id$*: aliased by flash**expire**timeout_id\_\_
+
+- - flash*queue*,flash_queue\_\_set
+
+  flash*queue$*: aliased by flash_queue\_\_
+
+- - flash*error*
+
+  flash*error$*: aliased by flash_error\_\_
+
+- - flash*message*
+
+  flash*message$*: aliased by flash_message\_\_
+
+### Patch Changes
+
+- types: fix:
+
+      flash__add
+      flash__shift
+      flash_message__add
+      flash_error__add
+      flash_expire__cancel
+
+- Updated dependencies
+  - @ctx-core/object@28.0.5
+
 ## 10.0.163
 
 ### Patch Changes
