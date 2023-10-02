@@ -1,5 +1,14 @@
 # @ctx-core/flash
 
+## 10.1.8
+
+### Patch Changes
+
+- @ctx-core/object: ^28.0.7 -> ^28.1.0
+- @ctx-core/nanostores: ^6.0.10 -> ^6.0.11
+- Updated dependencies
+  - @ctx-core/dom@14.1.66
+
 ## 10.1.7
 
 ### Patch Changes
