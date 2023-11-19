@@ -1,16 +1,16 @@
 import { tap } from '@ctx-core/function'
-import { atom_, be_atom_triple_ } from '@ctx-core/nanostores'
+import { be_atom_triple_ } from '@ctx-core/nanostores'
 import { flash__expire__timeout_id_ } from '../flash__expire__timeout_id/index.js'
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
-/** @typedef {import('@ctx-core/object').val__be_atom_triple_T}val__be_atom_triple_T */
-/** @typedef {import('./index.d.ts').flash_queue_T}flash_queue_T */
+/** @typedef {import('@ctx-core/nanostores').be_atom_triple_T} */
+/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {import('./index.d.ts').flash_queue_T} */
 export const [
 	flash_queue$_,
 	flash_queue_,
 	flash_queue__set,
-] = /** @type {val__be_atom_triple_T<flash_queue_T>} */be_atom_triple_(
-	'flash_queue', ctx=>
-		atom_([]))
+] = /** @type {be_atom_triple_T<flash_queue_T>} */be_atom_triple_(()=>
+	[])
+	.config({ id: 'flash_queue' })
 export { flash_queue$_ as flash_queue__ }
 /**
  * @param {Ctx}ctx

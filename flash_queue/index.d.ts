@@ -1,10 +1,10 @@
-import type { val__be_atom_triple_T } from '@ctx-core/nanostores'
+import type { be_atom_triple_T } from '@ctx-core/nanostores'
 import type { Ctx } from '@ctx-core/object'
 export declare const [
 	flash_queue$_,
 	flash_queue_,
 	flash_queue__set,
-]:val__be_atom_triple_T<flash_queue_T>
+]:be_atom_triple_T<flash_queue_T>
 export { flash_queue$_ as flash_queue__ }
 export type flash_queue_T = {
 	flash__add:typeof flash__add
