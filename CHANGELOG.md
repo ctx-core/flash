@@ -1,5 +1,13 @@
 # @ctx-core/flash
 
+## 10.2.19
+
+### Patch Changes
+
+- fix: be*computed_pair* instances
+- Updated dependencies
+  - @ctx-core/nanostores@9.0.1
+
 ## 10.2.18
 
 ### Patch Changes
