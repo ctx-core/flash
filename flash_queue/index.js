@@ -9,8 +9,8 @@ export const [
 	flash_queue_,
 	flash_queue__set,
 ] = /** @type {be_atom_triple_T<flash_queue_T>} */be_atom_triple_(()=>
-	[])
-	.config({ id: 'flash_queue' })
+	[],
+{ id: 'flash_queue' })
 export { flash_queue$_ as flash_queue__ }
 /**
  * @param {Ctx}ctx
