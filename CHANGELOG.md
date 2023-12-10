@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 10.2.44
+
+### Patch Changes
+
+- @ctx-core/dom: ^15.1.39 -> ^15.1.40
+
 ## 10.2.43
 
 ### Patch Changes
