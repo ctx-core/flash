@@ -1,9 +1,9 @@
-import { tap } from '@ctx-core/function'
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { be_atom_triple_ } from '@ctx-core/nanostores'
+import { tap } from 'ctx-core/function'
 import { flash__expire__timeout_id_ } from '../flash__expire__timeout_id/index.js'
 /** @typedef {import('@ctx-core/nanostores').be_atom_triple_T} */
-/** @typedef {import('@ctx-core/object').Ctx} */
-/** @typedef {import('./index.d.ts').flash_queue_T} */
 export const [
 	flash_queue$_,
 	flash_queue_,

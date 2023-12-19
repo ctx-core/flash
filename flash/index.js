@@ -1,8 +1,8 @@
-import { nullish__none_ } from '@ctx-core/function'
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { be_computed_pair_ } from '@ctx-core/nanostores'
+import { nullish__none_ } from 'ctx-core/function'
 import { flash_queue$_ } from '../flash_queue/index.js'
-/** @typedef {import('@ctx-core/object').be_computed_pair_T} */
-/** @type {import('./index.d.ts').flash_T} */
 export const [
 	flash$_,
 	flash_,

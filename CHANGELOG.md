@@ -1,5 +1,13 @@
 # @ctx-core/flash
 
+## 10.2.65
+
+### Patch Changes
+
+- consolidate dependencies
+- Updated dependencies
+  - ctx-core@5.1.0
+
 ## 10.2.64
 
 ### Patch Changes
