@@ -22,12 +22,12 @@
 		"*.d.ts",
 		"*.js",
 		"*.json",
-		"./flash",
-		"./flash__expire__timeout_id",
-		"./flash_error",
-		"./flash_message",
-		"./flash_queue",
-		"./flash_timeout"
+		"flash",
+		"flash__expire__timeout_id",
+		"flash_error",
+		"flash_message",
+		"flash_queue",
+		"flash_timeout"
 	],
 	"types": "./index.d.ts",
 	"exports": {
