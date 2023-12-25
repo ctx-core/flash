@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 11.0.0
+
+### Major Changes
+
+- rmemo instead of @ctx-core/nanostores
+
 ## 10.2.76
 
 ### Patch Changes
