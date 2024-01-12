@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "11.0.16",
+	"version": "11.0.17",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -45,8 +45,8 @@
 		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^15.2.15",
-		"ctx-core": "^5.17.1"
+		"@ctx-core/dom": "^15.2.16",
+		"ctx-core": "^5.18.0"
 	},
 	"devDependencies": {
 		"c8": "^9.0.0",
