@@ -1,5 +1,13 @@
 # @ctx-core/flash
 
+## 11.0.22
+
+### Patch Changes
+
+- ctx-core: ^5.18.5 -> ^5.18.6
+- Updated dependencies
+  - @ctx-core/dom@15.2.21
+
 ## 11.0.21
 
 ### Patch Changes
