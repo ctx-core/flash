@@ -1,4 +1,4 @@
-import type { Ctx } from 'ctx-core/be'
+import type { ctx_T } from 'ctx-core/be'
 import type { be_sig_triple_T } from 'ctx-core/rmemo'
 export declare const [
 	flash_queue$_,
@@ -13,8 +13,8 @@ export type flash_queue_T = {
 	flash_error__add:typeof flash_error__add
 	flash_expire__cancel:typeof flash_expire__cancel
 }[]
-export function flash__add(ctx:Ctx, val:unknown):void
-export function flash__shift(ctx:Ctx):void
-export function flash_message__add(ctx:Ctx, flash_message:unknown, rest?:unknown):void
-export function flash_error__add(ctx:Ctx, flash_error:unknown, rest?:unknown):void
-export function flash_expire__cancel(ctx:Ctx):void
+export function flash__add(ctx:ctx_T, val:unknown):void
+export function flash__shift(ctx:ctx_T):void
+export function flash_message__add(ctx:ctx_T, flash_message:unknown, rest?:unknown):void
+export function flash_error__add(ctx:ctx_T, flash_error:unknown, rest?:unknown):void
+export function flash_expire__cancel(ctx:ctx_T):void

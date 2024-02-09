@@ -12,7 +12,7 @@ export const [
 { id: 'flash_queue' })
 export { flash_queue$_ as flash_queue__ }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {(flash_queue:flash_queue_T)=>unknown}fn
  */
 export function flash__mutate(ctx, fn) {
@@ -21,7 +21,7 @@ export function flash__mutate(ctx, fn) {
 		flash_queue=>fn(flash_queue)))
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {unknown}val
  */
 export function flash__add(ctx, val) {
@@ -29,14 +29,14 @@ export function flash__add(ctx, val) {
 		flash_queue.push(val))
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  */
 export function flash__shift(ctx) {
 	flash__mutate(ctx, flash_queue=>
 		flash_queue.shift())
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {unknown}flash_message
  * @param {unknown}[rest]
  */
@@ -47,7 +47,7 @@ export function flash_message__add(ctx, flash_message, rest) {
 	})
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {unknown}flash_error
  * @param {unknown}[rest]
  */
@@ -58,7 +58,7 @@ export function flash_error__add(ctx, flash_error, rest) {
 	})
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  */
 export function flash_expire__cancel(ctx) {
 	window.clearTimeout(flash__expire__timeout_id_(ctx))
