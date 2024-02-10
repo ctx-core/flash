@@ -1,5 +1,13 @@
 # @ctx-core/flash
 
+## 11.0.72
+
+### Patch Changes
+
+- tsx: ^4.7.0 -> ^4.7.1
+- Updated dependencies
+  - ctx-core@6.1.2
+
 ## 11.0.71
 
 ### Patch Changes
