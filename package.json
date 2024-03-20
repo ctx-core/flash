@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/flash",
-	"version": "11.0.94",
+	"version": "11.0.95",
 	"description": "ctx-core flash",
 	"keywords": [
 		"ctx-core",
@@ -16,7 +16,11 @@
 		"url": "https://github.com/ctx-core/flash.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-flash@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -45,7 +49,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.6.0"
+		"ctx-core": "^6.6.1"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
