@@ -1,15 +1,16 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
 import { tap } from 'ctx-core/function'
-import { be_sig_triple_ } from 'ctx-core/rmemo'
+import { id_be_sig_triple_ } from 'ctx-core/rmemo'
 import { flash__expire__timeout_id_ } from '../flash__expire__timeout_id/index.js'
 export const [
 	flash_queue$_,
 	flash_queue_,
 	flash_queue__set,
-] = /** @type {be_sig_triple_T<flash_queue_T>} */be_sig_triple_(()=>
-	[],
-{ id: 'flash_queue' })
+] = /** @type {be_sig_triple_T<flash_queue_T>} */
+id_be_sig_triple_(
+	'flash_queue',
+	()=>[])
 export { flash_queue$_ as flash_queue__ }
 /**
  * @param {ctx_T}ctx
