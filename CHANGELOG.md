@@ -1,5 +1,11 @@
 # @ctx-core/flash
 
+## 11.0.129
+
+### Patch Changes
+
+- ctx-core: ^7.2.16 -> ^7.2.17
+
 ## 11.0.128
 
 ### Patch Changes
